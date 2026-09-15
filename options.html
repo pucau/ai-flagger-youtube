@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <title>YouTube AI Flagger - Settings</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 480px; margin: 24px auto; }
+    h1 { font-size: 18px; }
+    label { display: block; margin: 12px 0 4px; font-weight: bold; }
+    textarea { width: 100%; height: 100px; box-sizing: border-box; }
+    .row { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
+    button { margin-top: 12px; padding: 6px 14px; }
+    #status { margin-top: 8px; color: green; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <h1>YouTube AI Flagger</h1>
+
+  <div class="row">
+    <input type="checkbox" id="enabled" />
+    <label for="enabled" style="margin:0;">Enable flagger</label>
+  </div>
+  <div class="row">
+    <input type="checkbox" id="flagLabelled" />
+    <label for="flagLabelled" style="margin:0;">Flag videos YouTube labels "Made with AI"</label>
+  </div>
+
+  <label for="channels">Channels to flag (one per line, exact name)</label>
+  <textarea id="channels"></textarea>
+
+  <label for="keywords">Title keywords to flag (one per line)</label>
+  <textarea id="keywords"></textarea>
+
+  <button id="save">Save</button>
+  <div id="status"></div>
+
+  <script src="settings.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>

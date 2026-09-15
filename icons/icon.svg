@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Source artwork for icon16/32/48/128.png -->
+  <rect x="64" y="64" width="896" height="896" rx="200" fill="#212121"/>
+  <rect x="236" y="196" width="68" height="640" rx="34" fill="#f5f5f5"/>
+  <polygon points="304,216 812,216 676,418 812,620 304,620" fill="#e8710a"/>
+  <polygon points="436,318 436,518 606,418" fill="#f5f5f5"/>
+</svg>
