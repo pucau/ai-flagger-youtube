@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "YouTube AI Flagger",
   "version": "0.1.0",
-  "description": "Flags YouTube videos that YouTube labels \"Made with AI\" with a coloured border, badge and toast notification, plus user-chosen channels and title keywords to flag.",
+  "description": "Flags YouTube videos labelled \"Made with AI\" with a border, badge and toast. Can also flag channels and title keywords you choose.",
   "permissions": ["storage"],
   "host_permissions": ["https://www.youtube.com/*"],
   "content_scripts": [
