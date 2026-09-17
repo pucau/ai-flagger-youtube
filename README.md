@@ -41,7 +41,11 @@ Keep in mind:
 
 ## Install
 
-A Chrome Web Store version is coming soon. Until then, you can install it manually:
+### From the Chrome Web Store
+
+Install it from the [Chrome Web Store](https://chromewebstore.google.com/detail/youtube-ai-flagger/dihehedkojdcfofiahhclojledfmaajo), then refresh any open YouTube tabs.
+
+### Manually from GitHub
 
 1. Clone or download this repo.
 2. Open `chrome://extensions` in Chrome, Edge, Brave or another Chromium browser.
