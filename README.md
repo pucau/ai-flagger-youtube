@@ -95,4 +95,15 @@ options.html          Settings page
 options.js            Settings page logic
 icons/                Extension icons
 screenshots/          README screenshots
+CONTRIBUTING.md       Setup, architecture tour and testing notes for contributors
 ```
+
+## Contributing
+
+Contributions are welcome, particularly fixes for YouTube markup changes, which are the most common way this breaks. There's no build step and no dependencies: load the unpacked folder and start editing.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the setup steps, a tour of how `content.js` is organised, and how to test a change across YouTube's different surfaces.
+
+## License
+
+[MIT](LICENSE)
